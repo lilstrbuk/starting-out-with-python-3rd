@@ -27,8 +27,8 @@ def check(correct_list, answers_list):
         print('You failed')
     else:
         print('You passed')
-    print('The number of correctly answerd question is', count)
-    print('The number of incorrectly answerd question is', 20 - count)
+    print('The number of correctly answered question is', count)
+    print('The number of incorrectly answered question is', 20 - count)
     print('The question numbers of the incorrectly answered quesions are',
           wrong_answers)
 def main():
